@@ -5,7 +5,7 @@ const {LoginHandler,RegisterUser} = require('../Controllers/UsersignupController
 
 
 
-UserRouter.post('/signup', RegisterUser)
+UserRouter.post('/register', RegisterUser)
 
 UserRouter.post('/login', LoginHandler)
 

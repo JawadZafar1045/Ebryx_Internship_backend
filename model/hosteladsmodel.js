@@ -1,4 +1,4 @@
-const {mongoose,Scheme} = require('mongoose')
+const {mongoose,Schema} = require('mongoose')
 
 const hostelSchema= Schema({
     name : {
@@ -10,6 +10,10 @@ const hostelSchema= Schema({
        required : true,
     },
     location :{
+        type : String,
+        required : true,
+    },
+    imageUrl : {
         type : String,
         required : true,
     },
